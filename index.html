@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Ingrid Almeida</title>
+    <link rel="icon" type="image/png" href="images/arara.png" />
+    <link href="styles/style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+
+  <body>
+    <div class="align_pic">
+      <img id="pic_to_change" src="images/Ingrid.png" class="ingrid_pic" />
+
+      <!--Js code changing colors and pictures-->
+      <script type="text/javascript">
+        let i = 1;
+
+        function changePicAndColor() {
+          i++;
+          if (i === 6) {
+            document.getElementById("pic_to_change").src =
+              "images/Ingrid e Vinicius.png";
+            document.getElementById("Hi").style.color = "#808000";
+            for (const el of document.getElementsByClassName("point")) {
+              el.style.color = "#808000";
+            }
+            i = 1;
+          }
+          if (i === 1) {
+            document.getElementById("pic_to_change").src = "images/Ingrid.png";
+            document.getElementById("Hi").style.color = "#8FBC8F";
+            for (const el of document.getElementsByClassName("point")) {
+              el.style.color = "#8FBC8F";
+            }
+          }
+          if (i === 2) {
+            document.getElementById("pic_to_change").src =
+              "images/Por do sol.png";
+            document.getElementById("Hi").style.color = "#FF8C00";
+            for (const el of document.getElementsByClassName("point")) {
+              el.style.color = "#FF8C00";
+            }
+          }
+          if (i === 3) {
+            document.getElementById("pic_to_change").src =
+              "images/Icaraizinho.png";
+            document.getElementById("Hi").style.color = "#48D1CC";
+            for (const el of document.getElementsByClassName("point")) {
+              el.style.color = "#48D1CC";
+            }
+          }
+          if (i === 4) {
+            document.getElementById("pic_to_change").src =
+              "images/Ingrid Birthday.png";
+            document.getElementById("Hi").style.color = "#FA8072";
+            for (const el of document.getElementsByClassName("point")) {
+              el.style.color = "#FA8072";
+            }
+          }
+
+          if (i === 5) {
+            document.getElementById("pic_to_change").src =
+              "images/Ingrid and Sky.png";
+            document.getElementById("Hi").style.color = "#87CEEB";
+            for (const el of document.getElementsByClassName("point")) {
+              el.style.color = "#87CEEB";
+            }
+          }
+        }
+
+        setInterval(changePicAndColor, 3000);
+      </script>
+
+      <div class="text">
+        <h1 id="Hi">hi.</h1>
+
+        <div class="aboutMe">
+          <p>
+            I’m Ingrid<span class="point">.</span> An aeronautical engineer who
+            worked with renewable energy and decided to change careers and
+            become a developer<span class="point">.</span>
+          </p>
+          <p>
+            Two years ago the company I worked for in Brazil started a movement
+            to the digitalisation of processes<span class="point">.</span> It
+            was when I started learning Alteryx and SQL<span class="point"
+              >.</span
+            >
+            When I saw what those tools were capable of I started envisioning
+            myself working in tech<span class="point">.</span> I knew the many
+            possibilities I could have, but what I realised while using those
+            tools was how interesting the challenges could be and how many
+            problems I could solve with tech<span class="point">.</span>
+          </p>
+          <p>
+            About a year ago my partner, who is a web developer, moved to the
+            Netherlands and since then we started thinking about me moving as
+            well<span class="point">.</span> At that time he saw how much I was
+            enjoying SQL and asked me if I wasn't considering moving
+            careers<span class="point">.</span> He tried teaching me the basics
+            of JavaScript<span class="point">.</span> It wasn't the same as SQL,
+            but I noticed how much more powerful the tool was<span class="point"
+              >.</span
+            >
+            I got excited and took a free online course<span class="point"
+              >.</span
+            >
+            At the same time we were also solving problems together<span
+              class="point"
+              >.</span
+            >
+            It was when I started to see myself writing code to solve problems
+            and creating new things<span class="point">!</span>
+          </p>
+        </div>
+        <div class="links">
+          <div class="github">
+            <a href="https://github.com/ingridmca">
+              <img
+                src="images/logotipo-do-github.png"
+                width="40"
+                height="40"
+                alt="logotipo Github"
+              />
+            </a>
+          </div>
+          <div class="twitter">
+            <a href="https://twitter.com/ingridmcalmeida">
+              <img
+                src="images/twitter.png"
+                width="40"
+                height="40"
+                alt="logotipo Twitter"
+              />
+            </a>
+          </div>
+          <div class="linkedin">
+            <a href="https://www.linkedin.com/in/ingrid-almeida-655732166/">
+              <img
+                src="images/linkedin.png"
+                width="40"
+                height="40"
+                alt="logotipo Linkedin"
+              />
+            </a>
+          </div>
+          <div class="exercism">
+            <a href="https://exercism.org/profiles/ingridmcalmeida">
+              <img
+                src="images/exercism.svg"
+                width="40"
+                height="40"
+                alt="logotipo Exercism"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!--Links that helped me
+FlexBox: https://flexboxfroggy.com/
+Round borders: https://www.w3schools.com/css/css3_borders.asp
+Icons and Logos: https://www.flaticon.com/br/packs/brazil-13?word=brasil 
+colors: https://www.quackit.com/css/css_color_codes.cfm -->

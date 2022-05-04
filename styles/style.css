@@ -1,0 +1,50 @@
+html {
+  font-size: 30px;
+  font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
+  color: dimgrey;
+  display: inline-grid;
+}
+body {
+  width: 850px;
+  margin: 0 auto;
+  background-color: antiquewhite;
+  padding: 0 20px 20px 20px;
+}
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #8fbc8f;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  width: 600px;
+  margin: auto;
+}
+
+.aboutMe {
+  font-size: 20px;
+  font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
+  color: dimgray;
+  margin-bottom: 80px;
+}
+.ingrid_pic {
+  width: 120px;
+  height: 120px;
+  margin-top: 77px;
+  border-radius: 25px;
+}
+.align_pic {
+  display: flex;
+  align-items: start;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  text-decoration: none;
+}
